@@ -1,0 +1,20 @@
+In the article “Driverless Cars are Coming,” the author presents both positive and negative aspects of driverless cars. Using details from the article, create an argument for or against the development of these cars.  Be sure to include: your position on driverless cars; appropriate details from the article that support your position; an introduction, a body, and a conclusion to your argumentative essay.'
+
+Article:
+Driverless Cars are Coming
+
+You are driving to school. You look up to see a pretty, hot air balloon. Whoa! You almost went through a stop sign! In a driverless car, you can look at the balloon. The car sees the stop sign without your help and stops the car. Car makers and others are already testing driverless cars or AVs (automated vehicles) in the U.S. and other countries. Some companies are working together on driverless technology. Intel (USA) is working with BMW (Germany) and Mobileye (Israel) on a driverless car. Google (USA) and Nissan (Japan) are making their own driverless cars. In the U.S. car makers can test AVs in Florida, California, Nevada, and the District of Columbia. Driverless cars may be for sale by 2025!
+
+Google’s name for its driverless system is “chauffeur.” It’s a good name because a chauffeur is a person who drives your car and takes you places. Google’s chauffeur system drives your car and takes you places, but it is not a person! The Google chauffeur system takes the place of the human chauffeur.
+
+Most cars already have some driverless technology like the Anti-Lock Braking System (ABS). When a car is slipping on an icy road, the ABS can tap the brakes quickly. The wheels turn slowly but do not stop. The driver can then steer the car to safety.
+
+Many cars also have parallel parking technology. These cars can park themselves along a street. No driver is needed. As cars get more driverless technology, they will be safer than cars with a driver. Driverless cars can move closer together on the road than cars with drivers. This may make driving on busy roads safer. Also, AVs don’t get sleepy or text on their phones while driving. Google’s driverless cars have been on the road since 2009 without a major crash.
+
+A driverless car can see the road better than people with the help of radar, cameras, and lasers. Radar helps the car see things up to 100 meters away even in darkness or rain. Cameras help the car see objects that are close. Lasers that work like radar, called lidar, spin on the roof and build a 3D model of the world around the car.
+
+Automated vehicles use a GPS to find the best way from one place to another. All the information from the radar, cameras, lasers, and the GPS goes to the Controller Area Network bus. A bus is a network that lets all those devices talk to one another. The CAN bus uses the information to steer the car and to tell the car to go or stop.
+
+There are some problems with AVs. Hackers may take over the car. There will probably be fewer jobs for people who drive taxis and trucks. A robo taxi can find you and take you to your destination without a taxi driver. AV trucks may roll along highways without a truck driver.
+
+In the future, both vehicles with drivers and vehicles without drivers may share the road. You will have a choice. You can be the driver of your car, or you can look out the window while the car drives you.

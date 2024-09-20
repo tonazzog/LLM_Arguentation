@@ -1,0 +1,51 @@
+Read the following article 'Unmasking the Face on Mars.' Imagine you are a scientist at NASA discussing the Face with someone who thinks it was created by aliens. Using information in the article, write an argumentative essay to convince someone that the Face is just a natural landform.Be sure to include: claims to support your argument that the Face is a natural landform; evidence from the article to support your claims; an introduction, a body, and a conclusion to your argumentative essay.
+
+Article: 'Unmasking the Face on Mars
+
+New high-resolution images and 3D altimetry from NASA's Mars Global Surveyor spacecraft reveal the Face on Mars for what it really is: a mesa.
+by Dr Tony Phillips
+
+Twenty five years ago something funny happened around Mars. NASA's Viking 1 spacecraft was circling the planet, snapping photos of possible landing sites for its sister ship Viking 2, when it spotted the shadowy likeness of a human face. An enormous head nearly two miles from end to end seemed to be staring back at the cameras from a region of the Red Planet called Cydonia. There must have been a degree of surprise among mission controllers back at the Jet Propulsion Lab when the face appeared on their monitors. But the sensation was short lived. Scientists figured it was just another Martian mesa, common enough around Cydonia, only this one had unusual shadows that made it look like an Egyptian Pharaoh.
+
+A few days later NASA unveiled the image for all to see. The caption noted a "huge rock formation ... which resembles a human head ... formed by shadows giving the illusion of eyes, nose and mouth." The authors reasoned it would be a good way to engage the public and attract attention to Mars.
+
+It certainly did!
+
+The "Face on Mars" has since become a pop icon. It has starred in a Hollywood film, appeared in books, magazines, radio talk shows - even haunted grocery store checkout lines for 25 years! (It has no body though, so at least there is no need for life insurance quotes!) Some people think the Face is bona fide evidence of life on Mars - evidence that NASA would rather hide, say conspiracy theorists. Meanwhile, defenders of the NASA budget wish there was an ancient civilisation on Mars.
+
+Although few scientists believed the Face was an alien artefact, photographing Cydonia became a priority for NASA when Mars Global Surveyor (MGS) arrived at the Red Planet in Sept. 1997, eighteen long years after the Viking missions ended. "We felt this was important to taxpayers," explained Jim Garvin, chief scientist for NASA's Mars Exploration Program. "We photographed the Face as soon as we could get a good shot at it."
+
+
+And so on April 5, 1998, when Mars Global Surveyor flew over Cydonia for the first time, Michael Malin and his Mars Orbiter Camera (MOC) team snapped a picture ten times sharper than the original Viking photos. Thousands of anxious web surfers were waiting when the image first appeared on a JPL web site, revealing ... a natural landform. There was no alien monument after all.
+
+But not everyone was satisfied. The Face on Mars is located at 41 degrees north martian latitude where it was winter in April '98 - a cloudy time of year on the Red Planet. The camera on board MGS had to peer through wispy clouds to see the Face. Perhaps, said sceptics, alien markings were hidden by haze.
+
+Mission controllers prepared to look again. "It's not easy to target Cydonia," says Garvin. "In fact, it's hard work." Mars Global Surveyor is a mapping spacecraft that normally looks straight down and scans the planet like a fax machine in narrow 2.5 km-wide strips. "We just don't pass over the Face very often," he noted.
+
+Nevertheless, on April 8, 2001 - a cloudless summer day in Cydonia - Mars Global Surveyor drew close enough for a second look. "We had to roll the spacecraft 25 degrees to centre the Face in the field of view," said Garvin. "Malin's team captured an extraordinary photo using the camera's absolute maximum resolution." Each pixel in the 2001 image spans 1.56 meters, compared to 43 meters per pixel in the best 1976 Viking photo.
+
+"As a rule of thumb, you can discern things in a digital image 3 times bigger than the pixel size," he added. "So, if there were objects in this picture like airplanes on the ground or Egyptian-style pyramids or even small shacks, you could see what they were!"
+
+What the picture actually shows is the Martian equivalent of a butte or mesa - landforms common around the American West. "It reminds me most of Middle Butte in the Snake River Plain of Idaho," says Garvin. "That's a lava dome that takes the form of an isolated mesa about the same height as the Face on Mars."
+
+Cydonia is littered with mesas like the Face, but the others don't look like human heads and they've attracted little popular attention. Garvin and other members of the MGS Science Team have studied them carefully, however, using a laser altimeter called "MOLA" on board Mars Global Surveyor.
+
+MOLA can measure the heights of things with a vertical precision of 20 to 30 cm (its horizontal resolution is 150m). "We took hundreds of altitude measurements of the mesa-like features around Cydonia," says Garvin, "including the Face. The height of the Face, its volume and aspect ratio - all of its dimensions, in fact - are similar to the other mesas. It's not exotic in any way."
+
+The laser altimetry data are perhaps even more convincing than overhead photos that the Face is natural. 3D elevation maps reveal the formation from any angle, unaltered by lights and shadow. There are no eyes, no nose, and no mouth!
+
+A 3D perspective view of the Face on Mars landform produced by Jim Garvin (NASA) and Jim Frawley (Herring Bay Geophysics) from the latest MOC image (April 8, 2001) and all of the available laser altimeter elevation measurements by MOLA. There is no vertical exaggeration in this ray-traced image. Garvin and Frawley express special thanks to Mike Malin and MOLA science team.
+
+The mesas of Cydonia are of great interest to planetary geologists because they lie in a curious part of Mars, in a transition zone between cratered highlands to the south and smoother lowland plains to the north. Some scientists think the northern plains are all that's left of an ancient Martian ocean. If so, Cydonia might have once been beachfront property.
+
+"Ocean advocates say the mesas are just what you would expect to see near the edge of the water ... that is, free-standing eroded landforms," says Garvin. "But there are many possibilities." The mesas could have been gouged by glaciers, carved by winds and water, or thrust upward by vertical tectonics. "We simply don't know."
+
+Perhaps the best way to unravel the mystery would be to send a geologist to investigate. And Garvin, an enthusiastic climber, wouldn't mind going himself.
+
+"I can imagine myself staring up at this 800-foot-high mass of rock with steep flanks," he says, "the same as Middle Butte in Idaho. An apron of boulders around the base would make the climb difficult [for a robot], but a human could do it well." The latest MGS images of the Face are so detailed that Garvin already knows what route he would take - he's even prepared a trail map! "The start and midsection of the hike would be easy, with some steep flanks in between. It would take about two hours to reach the summit."
+
+"From there the view would be spectacular," he continued. "To the south the ground would slope upwards, toward the highlands. To the north the terrain would descend toward the plains. Looking around you would see a barren landscape dotted with buttes, mesas, and impact craters," a curious mix of the bizarre and the familiar.
+
+"Mars is a special place, it reminds us of home ... one day we are going to go there," says Garvin. That's why the Face on Mars was so popular: it reinforced that connection. But even without an alien monument, there will be plenty for future explorers to do. Climbing the mesas of Cydonia -if that's where we start- will be just the beginning.
+
+
