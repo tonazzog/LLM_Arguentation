@@ -132,7 +132,7 @@ conn <- DBI::dbConnect(
   odbc::odbc(),
   Driver = "SQL Server",
   Server = ".",
-  Database = "NLP",
+  Database = "argumentation",
   Trusted_connection = TRUE
 )
 
