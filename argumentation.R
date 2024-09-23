@@ -100,24 +100,13 @@ basic_statistics<- function(variable, xlab, description) {
 }
 
 # Palettes ---------------------------------------------------------------------
-brewer.pal(n=6,"Set1")
-
-palette_adv <- c("#ffa600", "#ff7c43", "#f95d6a", "#d45087" ,"#a05195", "#665191")
-palette_adv <- c("#0fb5ae", "#4046ca", "#72e06a", "#de3d82" ,"#7e84fa", "#f7d046")
-palette_adv <- c("#5884b0", "#97d788", "#e56264", "#fbc6d8", "#a9d1ec", "#f3d46e")
-palette_adv <- c("#fd7f6f", "#7eb0d5", "#b2e061", "#bd7ebe", "#ffee65", "#beb9db", "#fdcce5", "#8bd3c7")
-palette_adv <- c("#0070a3", "#6b72bf", "#bf69bb", "#fd6194", "#ff7759", "#ffa600")
-palette_adv <- c('#ffa600', '#ff7c5d', '#ff6aa0', '#db78d3', '#868ae6', '#0091d4')
 
 # color brewer accent
 palette_adv <- c("#7FC97F", "#BEAED4", "#FDC086", "#ffee65", "#386CB0", "#F0027F")
 
 palette_llm <- c('#10a37f', '#f0eee5','#e95169','#416ff8','#d3e3fd','#ffa600','lightgray')
 
-
 llm_colors = c("ChatGPT" = palette_llm[1], "Claude" = palette_llm[2],  "Gemini"= palette_llm[3], "Gemma" = palette_llm[4], "Llama" = palette_llm[5], "Mistral" = palette_llm[6], "Student" = palette_llm[7])
-
-llm_colors
 
 palette_2_col <- c("#bf69bb",'lightgray')
 
@@ -776,9 +765,6 @@ create_box_plot(plot = plt,
 
 constructions <- c('Apposition', 'Contrast/Concession', 'Enumeration and Addition', 'Result/Inference', 'Summation', 'Transition')
 
-
-# using a for loop
-
 for (constr in constructions){
   
   fill_color = palette_adv[match(constr, constructions)]
@@ -880,8 +866,7 @@ for (constr in constructions){
 ## Reuse of adverbials by model ===============================
 
 for (constr in constructions){
-  
-
+	
   df <- adverbials[adverbials$construction_type == constr  & adverbials$category == 'LLM',]  %>%
     group_by(model, category, marker) %>%
     summarise(count = n())  
@@ -914,14 +899,11 @@ for (constr in constructions){
 
   }
 
-reuses <- c('in conclusion', 'as a result', 'thus', 'consequently', 'firstly', 'secondly', 'finally', 
-            'lastly', 'in contrast', 'on the other hand', 'specifically')
 reuses <- c('firstly', 'secondly', 'finally','lastly')
 
 df <- adverbials[adverbials$marker %in% reuses & adverbials$category == 'LLM',]  %>%
   group_by(model, category, marker) %>%
   summarise(count = n())  
-
 
 df1 <- df %>%
   group_by(marker) %>%
@@ -944,6 +926,7 @@ p <- plt +
         legend.position = "bottom") 
 
 p
+
 file_name = paste('reuse_by_model.svg', sep = '')
 ggsave(file_name, plot=p, device='svg', width= 10.667, height = 3 + (0.5 * adv_count))
 
@@ -1057,10 +1040,8 @@ boxplot(inf_llm$construction_frequency, inf_stu$construction_frequency,
         names = c("LLM", "Student"), main = "Box plots of average frequency Result/Inference",
         xlab = "Author", ylab = "Frequency")
 
-
 t.test(inf_llm$construction_frequency, inf_stu$construction_frequency)
 wilcox.test(inf_llm$construction_frequency, inf_stu$construction_frequency)
-
 cohensD(inf_llm$construction_frequency, inf_stu$construction_frequency)
 
 t2 <- (-5.5496)^2
@@ -1103,39 +1084,7 @@ print("Summation")
 dunn.test(sum$construction_frequency, sum$model, method = "Bonferroni")
 
 
-
-
 # Adverbials positions
-
-
-
-query = "
-  SELECT m.marker, a.start_pos
-  FROM MATCHES_ARGUMENT AS A
-  INNER JOIN MARKERS AS M
-  	ON M.id = A.marker_id 
-  INNER JOIN FILES_ARGUMENT AS F
-  	ON A.file_id = F.file_id
-  WHERE model != 'Student'
-  AND marker IN ('firstly', 'first', 'to begin with', 'futhermore', 
-    'conversely', 'additionally','secondly','second','third','thirdly','in conclusion','finally',
-    'on the other hand', 'consequently','lastly')
-
-"
-
-query = "
-  SELECT m.marker, a.start_pos
-  FROM MATCHES_ARGUMENT AS A
-  INNER JOIN MARKERS AS M
-  	ON M.id = A.marker_id 
-  INNER JOIN FILES_ARGUMENT AS F
-  	ON A.file_id = F.file_id
-  WHERE model != 'Student'
-  AND marker IN ('firstly', 'first', 'to begin with', 'futhermore', 
-    'conversely', 'secondly','second','third','thirdly','in conclusion','finally',
-    'consequently','lastly')
-
-"
 
 query = "
   SELECT m.marker, a.start_pos
@@ -1146,7 +1095,6 @@ query = "
   	ON A.file_id = F.file_id
   WHERE model != 'Student'
   AND marker IN ('firstly', 'first', 'secondly','second','third','thirdly','in conclusion','finally', 'lastly')
-
 "
 
 distribution <- dbGetQuery(conn, query)
@@ -1171,30 +1119,6 @@ adv_sort <- distribution %>%
   arrange(sort)
 
 adv_sorted <- adv_sort[['marker']]
-adv_sorted
-
-
-adv_colors <- c("first" = '#58EFECff', 
-                "firstly" = '#66E0E3ff',
-                "second" = '#75D2DAff',
-                "to begin with" = '#83C3D0ff',
-                "conversely"  = '#92B4C7ff',
-                "secondly" = '#A0A6BEff',
-                "thirdly" = '#AE97B5ff',
-                "lastly" ='#BD88ACff',
-                "finally" = '#CB79A2ff',
-                "in conclusion" = '#DA6B99ff',
-                "consequently" = '#E85C90ff')
-
-adv_colors <- c("first-firstly" = 'yellow', 
-                "second-secondly" = 'orange',
-                "third-thirdly" = 'red',
-                "to begin with" = '#83C3D0ff',
-                "conversely"  = 'steelblue',
-                "lastly" ='#BD88ACff',
-                "finally" = '#CB79A2ff',
-                "in conclusion" = '#DA6B99ff',
-                "consequently" = 'blue')
 
 distribution$"Linking adverbial"  <- distribution$"marker"
 
